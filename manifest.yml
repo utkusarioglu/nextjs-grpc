@@ -1,0 +1,10 @@
+repos:
+  - path: infra/local
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-infra-local.git
+  - path: infra/app
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-infra-app.git
+  - path: infra/aws
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-infra-aws.git
