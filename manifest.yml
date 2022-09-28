@@ -1,10 +1,14 @@
 repos:
-  - path: infra/local
+  - path: infra/targets/local
     track: main
-    url: https://github.com/utkusarioglu/nextjs-grpc-infra-local.git
-  - path: infra/app
+    url: https://github.com/utkusarioglu/nextjs-grpc-infra-target-local.git
+  - path: infra/targets/aws
     track: main
-    url: https://github.com/utkusarioglu/nextjs-grpc-infra-app.git
-  - path: infra/aws
+    url: https://github.com/utkusarioglu/nextjs-grpc-infra-target-aws.git
+  - path: infra/targets/aws-localstack
     track: main
-    url: https://github.com/utkusarioglu/nextjs-grpc-infra-aws.git
+    url: https://github.com/utkusarioglu/nextjs-grpc-infra-target-aws-localstack.git
+
+  - path: infra/configs/app
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-infra-config-app.git
