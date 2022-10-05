@@ -1,4 +1,5 @@
 repos:
+# Infra targets
   - path: infra/targets/local
     track: main
     url: https://github.com/utkusarioglu/nextjs-grpc-infra-target-local.git
@@ -9,6 +10,26 @@ repos:
     track: main
     url: https://github.com/utkusarioglu/nextjs-grpc-infra-target-aws-localstack.git
 
+# Infra configs
   - path: infra/configs/app
     track: main
     url: https://github.com/utkusarioglu/nextjs-grpc-infra-config-app.git
+  - path: infra/configs/aws
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-infra-config-aws.git
+
+# Microservices
+  - path: api
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-api.git
+
+# Observability
+  - path: grafana
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-grafana.git
+  - path: jaeger
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-jaeger.git
+  - path: prometheus
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-prometheus.git
