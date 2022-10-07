@@ -22,6 +22,9 @@ repos:
   - path: api
     track: main
     url: https://github.com/utkusarioglu/nextjs-grpc-api.git
+  - path: ms
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-ms.git
 
 # Observability
   - path: grafana
@@ -33,3 +36,18 @@ repos:
   - path: prometheus
     track: main
     url: https://github.com/utkusarioglu/nextjs-grpc-prometheus.git
+  - path: loki
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-loki.git
+  - path: otel-collectors
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-otel-collectors.git
+    
+
+# Secrets
+  - path: certificates
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-certificates.git
+  - path: secrets
+    track: main
+    url: https://github.com/utkusarioglu/nextjs-grpc-secrets.git
